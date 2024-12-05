@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.header {
+    background-color: #333;
+    padding: 1em;
+}
+.nav-bar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.nav-bar li {
+    display: inline;
+    margin-right: 15px;
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.hero, .services-section, .contact-section, .about-section {
+    padding: 2em;
+    text-align: center;
+}
+.hero {
+    background-color: #e4e4e4;
+    margin: 1em;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.gallery-img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
